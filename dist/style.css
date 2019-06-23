@@ -1,0 +1,46 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: orange;
+}
+.imageSlider {
+  background: orangered;
+  min-height: 70vh;
+  flex: 0 0 70%;
+  background: url(https://www.w3schools.com/w3css/img_snowtops.jpg)center/cover no-repeat;
+  box-shadow: 2px 4px black;
+  border-radius: 15px;
+  position: relative;
+}
+.btn {
+    position: absolute;
+    padding: 8px 21px;
+    border-radius: 5px;
+    box-shadow: 2px 4px grey;
+    border: 2px solid rebeccapurple;
+    font-size: 24px;
+    outline: none;
+    font-weight: 600;
+    color: crimson;
+}
+.prevbtn {
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.nextbtn {
+  top: 50%;
+  right: 0px;
+  transform: translate(50%, -50%);
+}
+.btn:active {
+  background : gray;
+  box-shadow : 1px 1px gray;
+}
+.btn:hover{
+  background : green;
+  color : white;
+  box-shadow: 3px 4px 3px grey;
+}
